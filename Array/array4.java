@@ -25,4 +25,5 @@ class array4
 		//print the now sorted array
 		System.out.println(Arrays.toString(arr));
 	}
+	
 }

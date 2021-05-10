@@ -25,6 +25,7 @@ class array3
 		Arrays.sort(a);
 		System.out.println(a.length-k);    // complexity: nLog(n) because of sorting.
 	}
+	
 }
 
 //METHOD 2 (Using max heap)

@@ -35,6 +35,7 @@ class array2
 		System.out.println("Maximun:"+max);
 		System.out.println("Minimum:"+min);
 	}
+	
 }
 
 

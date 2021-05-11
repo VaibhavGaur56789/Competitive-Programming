@@ -49,8 +49,8 @@ public class array5 {
 class Arrayex {
     public static void main(String[] args) {
         array5 a = new array5();
-        int arr1[] = {2, 2, 3, 4, 4, 4, 7, 8};
-        int arr2[] = {1, 2, 2, 2, 4, 6, 6, 6, 7, 8, 10};
+        int[] arr1 = {2, 2, 3, 4, 4, 4, 7, 8};
+        int[] arr2 = {1, 2, 2, 2, 4, 6, 6, 6, 7, 8, 10};
         List<Integer> finalList = new ArrayList<> ();
         a.union(arr1, arr2, finalList);
         System.out.println(finalList);

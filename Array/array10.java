@@ -2,7 +2,7 @@
 
 import java.util.*;
 public class array10 {
-    public static void merge(int[] arr1, int[] arr2)
+    public void merge(int[] arr1, int[] arr2)
     {
         int m = arr1.length;
         int n = arr2.length;
@@ -26,10 +26,12 @@ public class array10 {
     }
     public static void main (String[] args)
     {
+        array10 a = new array10();
+
         int[] X = { 1, 4, 7, 8, 10 };
         int[] Y = { 2, 3, 9 };
 
-        merge(X, Y);
+        a.merge(X, Y);
 
         System.out.println("X: " + Arrays.toString(X));
         System.out.println("Y: " + Arrays.toString(Y));
